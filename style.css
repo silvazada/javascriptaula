@@ -1,0 +1,43 @@
+.janelinha
+{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    margin-top: -100px;
+    margin-left: -150px;
+    display: none;
+    
+}
+.x
+{
+    cursor: pointer;
+}
+.mais
+{
+    cursor: pointer;
+}
+@media print 
+{
+    .BT
+    {
+        display: none;
+    }
+    
+    .d1
+    {
+        display: none;
+    }
+
+    .d2
+    {
+        display: none;
+    }
+
+    .d3
+    {
+        display: none;
+    }
+}
